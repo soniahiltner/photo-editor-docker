@@ -1,0 +1,15 @@
+.btnContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 3rem;
+}
+
+/* media queries */
+@media (min-width: 900px) {
+  .btnContainer {
+    margin-top: 1rem;
+    justify-content: center;
+    column-gap: 3rem;
+  }
+}

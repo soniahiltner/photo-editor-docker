@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+}
+
+.input {
+  appearance: none;
+  border-radius: 50%;
+  border: 2px solid #999;
+  transition: 0.2s all linear;
+  width: 1rem;
+  height: 1rem;
+}
+.input:hover {
+  cursor: pointer;
+}
+
+.input:checked {
+  border: 6px solid red;
+}
+
+.textLabel:hover {
+  color: red;
+}
+
+.color {
+  width: 2.5rem;
+  height: 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  border: wheat 1px solid;
+}
+
+.colorLabel:hover {
+  box-shadow: 0 0 0 0.1rem wheat;
+  border-radius: 0.25rem;
+}

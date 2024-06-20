@@ -1,0 +1,11 @@
+.span {
+  text-align: center;
+  margin: 0.5rem 0;
+  font-size: 1.4rem;
+  color: rgb(251, 98, 3);
+  position: absolute;
+  top: 5rem;
+  left: 50%;
+  transform: translateX(-50%);
+
+}

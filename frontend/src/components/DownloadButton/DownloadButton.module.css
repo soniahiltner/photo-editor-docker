@@ -1,0 +1,22 @@
+.button {
+  padding: 0.4rem 0.6rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(174, 56, 17, 0.72);
+  color: white;
+  transition: all 0.4s ease-in-out;
+  box-shadow: 0rem 0rem 0.2rem black;
+  font-size: 1rem;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.button:hover {
+  background-color: rgb(174, 56, 17);
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
